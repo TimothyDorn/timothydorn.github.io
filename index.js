@@ -5,14 +5,15 @@ import './index.css';
 
 
   function Square(props){
-    return (
-      <button 
-        className="square" 
-        onClick={props.onClick}
-      >
-        {props.value}
-      </button>
-    );
+    render()
+      return (
+        <button 
+          className="square" 
+          onClick={props.onClick}
+        >
+          {props.value}
+        </button>
+      );
   }
 
   
@@ -122,7 +123,7 @@ import './index.css';
   const domContainer = document.querySelector('#tic-tac-toe');
   ReactDOM.render(
     <Game />,
-    document.getElementById('root'),
+    // document.getElementById('root'),
     domContainer
   );
   
