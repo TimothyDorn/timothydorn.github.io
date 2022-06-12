@@ -1,9 +1,15 @@
 <head>
 	<title>Letter</title> 
 	<meta name="description" content="Letter">
+	<meta charset="UTF-8">
 </head>
 
 <body>
-	<h1>I love you</h1>
+	<div style="width: 50%; margin:auto; justify-content:center;">
+		<img src="imgs/tiffandtimcuteboat.jpg" alt="Cute Boat Picture" style="width: 100%; max-width:100%; margin:auto; flex:2">
+	</div>
+	<div style=" flex:2; margin-top:20px;">
+		<h1 style="text-align: center;">I love yous! &#128151</h1>
+	</div>
 	
 </body>
