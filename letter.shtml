@@ -11,5 +11,8 @@
 	<div style=" flex:2; margin-top:20px;">
 		<h1 style="text-align: center;">I love yous! &#128151</h1>
 	</div>
+	<div style="width: 50%; margin:auto; justify-content:center;">
+		<img src="imgs/timsleeptrancute.jpg" alt="Cute Boat Picture" style="width: 100%; max-width:100%; margin:auto; flex:2">
+	</div>
 	
 </body>
