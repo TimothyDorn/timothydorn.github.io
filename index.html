@@ -1,22 +1,52 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Timothy's Website</title>
-	<meta name="description" content="This is a website. Thank you."/>
-	<link rel="stylesheet" href="letter.css">
-  </head>
-
-  <body>
-	<div style="justify-content:center;">
-		<h1 style="text-align: center;">Hello</h1>
-	</div>
-	<div style="justify-content:center;">
-	
-		<p style="text-align: center;">This is a link -> <a href="letter.shtml">Do not read</a></p>
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{ site.author }} / {{ site.tagline }}</title>
+	<meta name="author" content="{{ site.author }}">
+	<meta name="description" content="{{ site.description }}">
+	<meta name="keywords" content="{{ site.keywords }}">
+	{% include head.html %}
+</head>
+<body>
+	{% include header.html %}
+	<main class="content">
+		<section class="projects">
+			<div class="container">
+				<h1>My Projects<br><br></h1>
+				<ul class="projects-list">
+					{% for item in site.categories.projects reversed %}
+						<li>
+							<a href="{{ item.url | prepend: site.baseurl }}">
+								<div class="img-wrapper">
+									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+								</div>
+								<span class="h5">{{ item.project.tech }}</span>
+								<h3>{{ item.project.title }}</h3>
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</section>
 		
-	</div>
-
-  
-    
-  </body>
+		<!-- <section class="intro">
+			<div class="container">
+				<h1><br><br><br><br><br><br>About me!</h1>
+				<p class="body">{{ site.description }}</p>
+			</div>
+		</section> -->
+		<section class="intro">
+			<div class="container">
+				<!-- <h2>About me!</h2> -->
+				<p class="semibold"><br><br><br>About me!</p>
+				<h5>{{ site.description }}</h5>
+			</div>
+		</section>
+	</main>
+	{% include footer.html %}
+	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
+</body>
 </html>
