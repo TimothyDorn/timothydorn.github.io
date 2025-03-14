@@ -1,0 +1,46 @@
+# User config
+# author: "Timothy Dorn"
+# tagline: "Timothy Dorn's Portfolio"
+# description: "Please enjoy perusing my projects"
+# keywords: "Keywords"
+# email: "timothydorn1997@gmail.com"
+# resume: "https://drive.google.com/"
+# linkedin: "https://www.linkedin.com/in/timothydorn/"
+# github: "https://github.com/TimothyDorn"
+
+
+# Site config
+# baseurl: ""
+# highlighter: rouge
+# sass:
+  # sass_dir: assets/scss
+  # style: compressed
+# Basic site settings
+title: Solid State
+description: A free + fully responsive site template by HTML5 UP
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Explicitly disable theme
+theme: null
+
+# Exclude directories and files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
+
+# Enable processing of HTML files
+include: 
+  - _pages
+
+# Plugins (GitHub Pages whitelist)
+plugins:
+  - jekyll-seo-tag
