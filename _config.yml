@@ -1,17 +1,27 @@
 # User config
-author: "Timothy Dorn"
-tagline: "Timothy Dorn's Portfolio"
-description: "Please enjoy perusing my projects"
-keywords: "Keywords"
-email: "timothydorn1997@gmail.com"
-resume: "https://drive.google.com/"
-linkedin: "https://www.linkedin.com/in/timothydorn/"
-github: "https://github.com/TimothyDorn"
+# author: "Timothy Dorn"
+# tagline: "Timothy Dorn's Portfolio"
+# description: "Please enjoy perusing my projects"
+# keywords: "Keywords"
+# email: "timothydorn1997@gmail.com"
+# resume: "https://drive.google.com/"
+# linkedin: "https://www.linkedin.com/in/timothydorn/"
+# github: "https://github.com/TimothyDorn"
 
 
 # Site config
-baseurl: ""
-highlighter: rouge
-sass:
-  sass_dir: assets/scss
-  style: compressed
+# baseurl: ""
+# highlighter: rouge
+# sass:
+  # sass_dir: assets/scss
+  # style: compressed
+# Jekyll configuration for Solid State template
+name: Solid State
+title: Solid State by HTML5 UP
+description: A free + fully responsive site template by HTML5 UP
+
+# Allow Jekyll to process HTML files
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
