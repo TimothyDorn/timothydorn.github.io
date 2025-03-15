@@ -5,7 +5,6 @@ title: Home
 <!DOCTYPE HTML>
 <!--
 	Solid State by HTML5 UP
-	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
@@ -25,19 +24,7 @@ title: Home
 					{% include header.html %}
 
 				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
+					{% include menu.html %}
 
 				<!-- Banner -->
 					<section id="banner">
@@ -93,6 +80,15 @@ title: Home
 									<h2 class="major">Vitae phasellus</h2>
 									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
 									<section class="features">
+										{% for post in site.posts %}
+											<article>
+												<a href="{{ site.baseurl }}{{ post.url }}" class="image"><img src="images/pic04.jpg" alt="" /></a>
+												<h3 class="major">{{ post.title }}</h3>
+												<p>{{ post.excerpt }}</p>
+												<a href="{{ site.baseurl }}{{ post.url }}" class="special">Learn more</a>
+											</article>
+										{% endfor %}
+								
 										<article>
 											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
 											<h3 class="major">Sed feugiat lorem</h3>
