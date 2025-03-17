@@ -10,10 +10,7 @@ title: Home
 <html>
 	<head>
 		<title>Timothy Dorn Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/noscript.css" /></noscript>
+		{% include meta.html %}
 	</head>
 	<body class="is-preload">
 
@@ -21,7 +18,12 @@ title: Home
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					{% include header.html %}
+					<header id="header" class="alt">
+						<h1><a href="{{ site.baseurl }}/">Timothy Dorn</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
 
 				<!-- Menu -->
 					{% include menu.html %}
@@ -45,7 +47,7 @@ title: Home
 									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Timothy Dorn</h2>
-										<p>Welcome to my portfolio. I have a B.S. in aerospace engineering and an M.S. in Robotics from the University of Minnesota, Twin-Cities, but learning is never ending. Please follow along as I continue advancing my knowledge of engineering.</p>
+										<p>Welcome to my engineering portfolio. I have a B.S. in aerospace engineering and an M.S. in Robotics from the University of Minnesota, Twin-Cities, but learning is never ending. Please follow along as I continue advancing my knowledge of robotics and engineering.</p>
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
@@ -105,12 +107,7 @@ title: Home
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			{% include scripts.html %}
 
 	</body>
 </html>
