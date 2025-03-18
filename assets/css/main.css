@@ -3133,7 +3133,7 @@ input, select, textarea {
 			
 		#header button {
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 0.8em;
+			font-size: 1em;
 			font-weight: 700;
 			/* height: 3em; */
 			letter-spacing: 0.1em;
@@ -3145,7 +3145,7 @@ input, select, textarea {
 			box-shadow: none;
 			border: 0;
 			display: inline-block;
-			padding: 0 1em;
+			padding: 0 0.3em;
 		}
 		
 			#header button a {
