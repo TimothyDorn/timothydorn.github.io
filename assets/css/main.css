@@ -3130,44 +3130,50 @@ input, select, textarea {
 					float: right;
 					margin-left: 0.75em;
 				}
+				
+			#header .dropbtn {
+				/* background-color: #04AA6D; */
+				/* color: white; */
+				/* padding: 16px; */
+				/* font-size: 16px; */
+				border: none;
+				text-decoration:none;
+			}
+			
+			#header .dropbtn a {
+				/* color: white; */
+				border: none;
+				text-decoration:none;
+			}
 
-				/* #header nav a[href="#menu"] { */
-					/* text-decoration: none; */
-					/* -moz-transition: background-color 0.2s ease-in-out; */
-					/* -webkit-transition: background-color 0.2s ease-in-out; */
-					/* -ms-transition: background-color 0.2s ease-in-out; */
-					/* transition: background-color 0.2s ease-in-out; */
-					/* border-radius: 5px; */
-					/* box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125); */
-					/* padding: 0 1.35em; */
-				/* } */
+			#header .dropdown {
+				position: relative;
+				display: inline-block;
+			}
 
-					/* #header nav a[href="#menu"]:before { */
-						/* -moz-osx-font-smoothing: grayscale; */
-						/* -webkit-font-smoothing: antialiased; */
-						/* display: inline-block; */
-						/* font-style: normal; */
-						/* font-variant: normal; */
-						/* text-rendering: auto; */
-						/* line-height: 1; */
-						/* text-transform: none !important; */
-						/* font-family: 'Font Awesome 5 Free'; */
-						/* font-weight: 900; */
-					/* } */
+			#header .dropdown-content {
+				display: none;
+				position: absolute;
+				background-color: #404561f2;
+				min-width: 160px;
+				/* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+				z-index: 1;
+			}
 
-					/* #header nav a[href="#menu"]:before { */
-						/* content: '\f0c9'; */
-						/* line-height: inherit; */
-					/* } */
+			#header .dropdown-content a {
+				/* color: black; */
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+			}
 
-					/* #header nav a[href="#menu"]:hover { */
-						/* background-color: rgba(255, 255, 255, 0.025); */
-					/* } */
+			#header .dropdown-content a:hover {background-color: #353849f2;}
 
-					/* #header nav a[href="#menu"]:active { */
-						/* background-color: rgba(255, 255, 255, 0.075); */
-					/* } */
+			#header .dropdown:hover .dropdown-content {display: block;}
 
+			#header .dropdown:hover .dropbtn {background-color: #2c2e37f2;}
+		
+		
 		#header.alt {
 			background-color: transparent;
 		}

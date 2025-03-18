@@ -13,11 +13,31 @@
 	<!-- </div> -->
 <!-- </nav> -->
 <nav>
-	<a href="{{ site.baseurl }}/">Home</a>
-	<a href="{{ site.baseurl }}/generic">Generic</a>
-	<a href="{{ site.baseurl }}/elements">Elements</a>
-	<a href="{{ site.baseurl }}/about">About</a>
-	<a href="{{ site.baseurl }}/posts">Posts</a>
+	<!-- <a href="{{ site.baseurl }}/">Home</a> -->
+	<!-- <a href="{{ site.baseurl }}/generic">Generic</a> -->
+	<!-- <a href="{{ site.baseurl }}/elements">Elements</a> -->
+	<!-- <a href="{{ site.baseurl }}/about">About</a> -->
+	<!-- <a href="{{ site.baseurl }}/posts">Posts</a> -->
 	<!-- <a title="Resume" href="{{ site.resume }}" target="_blank">Resume</a> -->
 	<!-- <a title="LinkedIn" href="{{ site.linkedin }}" target="_blank">LinkedIn</a> -->
+	<div class="dropdown">
+		<a class="dropbtn" href="{{ site.baseurl }}/">Home</a>
+	</div>
+	<div class="dropdown">
+		<a class="dropbtn" href="{{ site.baseurl }}/about">About</a>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn"><a href="{{ site.baseurl }}/posts">Posts</a></button>
+		<div class="dropdown-content">
+			{% for post in site.posts %}
+				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="dropdown">
+		<a class="dropbtn" href="{{ site.baseurl }}/generic">Generic</a>
+	</div>
+	<div class="dropdown">
+		<a class="dropbtn" href="{{ site.baseurl }}/elements">Elements</a>
+	</div>
 </nav>
