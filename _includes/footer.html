@@ -2,40 +2,85 @@
 	<div class="inner">
 		<h2 class="major">Get in touch</h2>
 		<p>Feel free to contact me with one of the methods below.</p>
-		<form method="post" action="#">
-			<div class="fields">
-				<div class="field">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="field">
-					<label for="email">Email</label>
-					<input type="email" name="email" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="4"></textarea>
-				</div>
-			</div>
-			<ul class="actions">
-				<li><input type="submit" value="Send Message" /></li>
-			</ul>
-		</form>
+		<!-- <form method="post" action="#"> -->
+			<!-- <div class="fields"> -->
+				<!-- <div class="field"> -->
+					<!-- <label for="name">Name</label> -->
+					<!-- <input type="text" name="name" id="name" /> -->
+				<!-- </div> -->
+				<!-- <div class="field"> -->
+					<!-- <label for="email">Email</label> -->
+					<!-- <input type="email" name="email" id="email" /> -->
+				<!-- </div> -->
+				<!-- <div class="field"> -->
+					<!-- <label for="message">Message</label> -->
+					<!-- <textarea name="message" id="message" rows="4"></textarea> -->
+				<!-- </div> -->
+			<!-- </div> -->
+			<!-- <ul class="actions"> -->
+				<!-- <li><input type="submit" value="Send Message" /></li> -->
+			<!-- </ul> -->
+		<!-- </form> -->
 		<ul class="contact">
-			<li class="icon solid fa-home">
-				Untitled Inc<br />
-				1234 Somewhere Road Suite #2894<br />
-				Nashville, TN 00000-0000
+			<!-- <li class="icon solid fa-home"> -->
+				<!-- Untitled Inc<br /> -->
+				<!-- 1234 Somewhere Road Suite #2894<br /> -->
+				<!-- Nashville, TN 00000-0000 -->
+			<!-- </li> -->
+			<!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
+			<!-- <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li> -->
+			<!-- <li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li> -->
+			<!-- <li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li> -->
+			<!-- <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li> -->
+			
+			{% if site.footer-links.email %}
+			<li class="icon solid fa-envelope">
+				<a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
 			</li>
-			<li class="icon solid fa-phone">(000) 000-0000</li>
-			<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-			<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-			<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-			<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+			{% endif %}
+			{% if site.footer-links.facebook %}
+			<li class="icon brands fa-facebook-f">
+				<a href="https://www.facebook.com/{{ site.footer-links.facebook }}">facebook.com/{{ site.footer-links.facebook }}</a>
+			</li>
+			{% endif %}
+			{% if site.footer-links.github %}
+			<li class="icon brands fa-github">
+				<a href="https://github.com/{{ site.footer-links.github }}">github.com/{{ site.footer-links.github }}</a>
+			</li>
+			{% endif %}
+			{% if site.footer-links.instagram %}
+			<li class="icon brands fa-instagram">
+				<a href="https://instagram.com/{{ site.footer-links.instagram }}">instagram.com/{{ site.footer-links.instagram }}</a>
+			</li>
+			{% endif %}
+			{% if site.footer-links.linkedin %}
+			<li class="icon brands fa-linkedin-square">
+				<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">linkedin.com/in/{{ site.footer-links.linkedin }}</a>
+			</li>
+			{% endif %}
+			{% if site.footer-links.youtube %}
+			<li class="icon brands fa-youtube-play">
+				<a href="https://youtube.com/{{ site.footer-links.youtube }}">youtube.com/{{ site.footer-links.youtube }}</a>
+			</li>
+			{% endif %}
+			<!-- {% if site.footer-links.pinterest %} -->
+			<!-- <a href="https://www.pinterest.com/{{ site.footer-links.pinterest }}"><i class="svg-icon pinterest"></i></a> -->
+			<!-- {% endif %} -->
+			<!-- {% if site.footer-links.rss %} -->
+			<!-- <a href="{{ site.baseurl }}/feed.xml"><i class="svg-icon rss"></i></a> -->
+			<!-- {% endif %} -->
+			<!-- {% if site.footer-links.twitter %} -->
+			<!-- <a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter"></i></a> -->
+			<!-- {% endif %} -->
+			<!-- {% if site.footer-links.stackoverflow %} -->
+			<!-- <a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}"><i class="svg-icon stackoverflow"></i></a> -->
+			<!-- {% endif %} -->
+			<!-- {% if site.footer-links.googleplus %} -->
+			<!-- <a href="https://plus.google.com/{{ site.footer-links.googleplus }}"><i class="svg-icon googleplus"></i></a> -->
+			<!-- {% endif %} -->
 		</ul>
 		<ul class="copyright">
-			<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			<li>&copy; Timothy Dorn. All rights reserved.</li>
 		</ul>
 	</div>
-	{% include svg-icons.html %}
 </section>
