@@ -3151,7 +3151,7 @@ input, select, textarea {
 			#header button a {
 				border: 0;
 				display: inline-block;
-				padding: 0 1em;
+				padding: 0 0.5em;
 			}
 			
 		#header .dropbtn {
@@ -3161,7 +3161,7 @@ input, select, textarea {
 			/* font-size: 16px; */
 			border: none;
 			text-decoration:none;
-			font-size: 0.8em;
+			font-size: 1em;
 			font-weight: 700;
 		}
 		
