@@ -3135,13 +3135,7 @@ input, select, textarea {
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 1em;
 			font-weight: 700;
-			/* height: 3em; */
 			letter-spacing: 0.1em;
-			/* line-height: 3em; */
-			/* position: absolute; */
-			/* right: 0.7em; */
-			/* text-transform: uppercase; */
-			/* top: 0.7em; */
 			box-shadow: none;
 			border: 0;
 			display: inline-block;
@@ -3155,10 +3149,6 @@ input, select, textarea {
 			}
 			
 		#header .dropbtn {
-			/* background-color: #04AA6D; */
-			/* color: white; */
-			/* padding: 16px; */
-			/* font-size: 16px; */
 			border: none;
 			text-decoration:none;
 			font-size: 1em;
@@ -3166,7 +3156,6 @@ input, select, textarea {
 		}
 		
 		#header .dropbtn a {
-			/* color: white; */
 			border: none;
 			text-decoration:none;
 		}
@@ -3180,20 +3169,20 @@ input, select, textarea {
 			display: none;
 			position: absolute;
 			background-color: #404561f2;
-			min-width: 160px;
-			/* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+			min-width: 220px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			padding: 0.1em 0;
 			z-index: 1;
 		}
 
 		#header .dropdown-content a {
-			/* color: black; */
-			/* padding: 12px 16px; */
 			text-decoration: none;
 			display: block;
 			border: 0;
-			padding: 0 0.5em;
-			font-size: 1em;
+			padding: 0.1em 0.5em;
+			font-size: 0.8em;
 			font-weight: 700;
+			line-height: 2em;
 		}
 
 		#header .dropdown-content a:hover {background-color: #353849f2;}
