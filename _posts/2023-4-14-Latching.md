@@ -28,4 +28,4 @@ The cam latch design was found to be similarly wearable to the ratchet design, b
 The research demonstrates the viability of using latching devices in artificial muscle driven wearable robotic systems. Existing artificial muscles research has often focused on material science breakthroughs and novel innovations, while ignoring the well-worn technologies that have proved effective in wearable applications for centuries or millennia. This paper makes the case that next generation artificial muscles (high strength, low power, long lifespan, high frequency) are not needed for many contemporary soft, wearable robotic applications. Rather, latching systems make many low frequency wearable systems viable in the present day using existing artificial muscle technology
 
 # Full Paper
-You can access the PDF of my thesis [here](/assets/Thesis.pdf){:target="_blank"}!
+You can access the full PDF of my thesis [here](/assets/Thesis.pdf){:target="_blank"}!
