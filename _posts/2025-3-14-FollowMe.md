@@ -2,6 +2,7 @@
 layout: post
 title: Follow Me Robots
 excerpt: Methods of controller-less control of drones
+published: false
 ---
 
 We are entering a new world of robotics, but until they can fully control themselves, how can we direct them?

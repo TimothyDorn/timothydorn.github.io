@@ -2,6 +2,7 @@
 layout: post
 title: Electronic Puzzle Box
 excerpt: Puzzle box game.
+published: false
 ---
 For the Mechatronics class capstone project our team built an electronic puzzle box!
 
