@@ -2427,6 +2427,12 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image img[alt=Puzzle] {
+			border-radius: 5px;
+			display: block;
+			max-width: 500px;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
