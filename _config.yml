@@ -85,12 +85,4 @@ exclude:
   - README.md
   - CNAME
 
-# Set Defaults
-defaults:
-  -
-    scope:
-      path: "posts"
-      type: "pages"
-    values:
-      author: "Timothy Dorn"
-      image: /images/pic04.jpg
+
