@@ -9,7 +9,8 @@ In my fall semester of my masters degree, 2021, I took ME8283: Design of Mechatr
 
 The project itself was very open ended, allowing students to use whatever sensors they wanted, and whatever mechanical and electrical designs they could make. Firmware was also very open ended, so long as all of the software was written by the students or taken from the Microchip libraries included with the PIC MCU. This put the Arduino IDE and Arduino libraries strictly off-limits.
 
-![Image](/images/puzzle_box/puzzle_box_unlit.jpg)
+<!-- ![Puzzle](/images/puzzle_box/puzzle_box_unlit.jpg) -->
+<span class="image fit"><img src="/images/puzzle_box/puzzle_box_unlit.jpg" alt="" /></span>
 
 # Device Description:
 The device was an interactive puzzle box for a player to solve. On the top of the box was a series of LEDs laid out in a cross shaped pattern. The puzzle box challenged the player to balance the box about a certain axis while simultaneously turning knobs and pressing buttons in a proper order. Each playthrough of the box, the correct orientation and positioning of the box and knobs was randomly generated, allowing players to play multiple times without repeating what they did in previous games. The goal was to update the age old concept of a puzzle box using contemporary technology.
