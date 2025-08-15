@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Electronic Puzzle Box
-excerpt: Puzzle box game.
+excerpt: My first microcontroller project, a fun and simple puzzle box.
 image: /images/puzzle_box/puzzle_box_unlit.jpg
 published: true
 ---

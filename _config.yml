@@ -84,3 +84,12 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+defaults:
+  -
+    scope:
+      path: "posts"
+      type: "pages"
+    values:
+      author: "Timothy Dorn"
+      image: /images/pic04.jpg

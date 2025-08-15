@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Wearable Latching Actuator
-excerpt: Methods of controller-less control of drones
+excerpt: Design, development, and evaluation of latching machanisms for use with artificial muscles. This was my master's thesis!
+published: true
 ---
 
 My master's thesis concerned the design, development, and evaluation of latching mechanisms. Specifically, latches designed to be used with artificial muscles in wearable applications.
