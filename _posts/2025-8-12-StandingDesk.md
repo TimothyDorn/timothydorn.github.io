@@ -2,6 +2,7 @@
 layout: post
 title: Standing Desk
 excerpt: Custom Standing Desk.
+image: /images/pic04.jpg
 published: false
 ---
 # Building a Standing Desk

@@ -2,6 +2,7 @@
 layout: post
 title: Driving Bots
 excerpt: Remote control and autonomous UGVs
+image: /images/pic04.jpg
 published: false
 ---
 # {{ post.title }}

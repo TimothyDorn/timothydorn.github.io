@@ -2,6 +2,7 @@
 layout: post
 title: Follow Me Robots
 excerpt: Methods of controller-less control of drones
+image: /images/pic04.jpg
 published: false
 ---
 
