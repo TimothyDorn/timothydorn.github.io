@@ -2,9 +2,9 @@
 layout: post
 title: Electronic Puzzle Box
 excerpt: Puzzle box game.
+image: /images/puzzle_box/puzzle_box_unlit.jpg
 published: true
 ---
-<br />
 <br />
 
 ### Overview

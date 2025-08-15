@@ -3184,16 +3184,18 @@ input, select, textarea {
 			padding: 0.1em 0;
 			z-index: 1;
 			right: 0.1em;
+			border-radius: 5px;
 		}
 
 		#header .dropdown-content a {
 			text-decoration: none;
 			display: block;
 			border: 0;
-			padding: 0.1em 0.5em;
-			font-size: 0.8em;
+			padding: 0.8em 0.8em;
+			font-size: 1em;
 			font-weight: 700;
 			line-height: 2em;
+			border-radius: 5px;
 		}
 
 		#header .dropdown-content a:hover {background-color: #353849f2;}
