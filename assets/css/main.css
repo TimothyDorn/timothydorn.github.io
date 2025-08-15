@@ -2463,7 +2463,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.fit img {
+			.image.maxwidth img {
 				max-width: 500px;
 			}
 
