@@ -4,8 +4,8 @@ title: Electronic Puzzle Box
 excerpt: Puzzle box game.
 published: true
 ---
-
-
+<br />
+<br />
 
 ### Overview
 In my fall semester of my masters degree, 2021, I took ME8283: Design of Mechatronic Products. The course focused on the basics of microcontrollers, and for the capstone students were tasked with using the PIC 16F18446 to be the logic in a device of their own design. In groups of two, my groupmate and I chose to make a puzzle box! 
