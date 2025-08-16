@@ -5,6 +5,7 @@ excerpt: Design, development, and evaluation of latching machanisms for use with
 image: /images/latch/ratchet_explode.jpg
 published: true
 ---
+<br />
 
 My master's thesis concerned the design, development, and evaluation of latching mechanisms. Specifically, latches designed to be used with artificial muscles in wearable applications.
 
