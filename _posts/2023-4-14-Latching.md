@@ -2,7 +2,7 @@
 layout: post
 title: Wearable Latching Actuator
 excerpt: Design, development, and evaluation of latching machanisms for use with artificial muscles. This was my master's thesis!
-image: /images/pic04.jpg
+image: /images/latch/ratchet_explode.jpg
 published: true
 ---
 
